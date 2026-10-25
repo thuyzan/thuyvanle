@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lê Thị Thùy Vân - Portfolio CV</title>
+    <meta name="description" content="Portfolio cá nhân của Lê Thị Thùy Vân, sinh viên Công nghệ thông tin.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+
+            <a href="#hero" class="nav-logo">
+                <div class="logo-box">TV</div>
+                <span class="logo-text">Thùy Vân</span>
+            </a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link active">Trang chủ</a>
+                <a href="#about" class="nav-link">Giới thiệu</a>
+                <a href="#education" class="nav-link">Học vấn</a>
+                <a href="#skills" class="nav-link">Kỹ năng</a>
+                <a href="#projects" class="nav-link">Dự án</a>
+                <a href="#contact" class="nav-link">Liên hệ</a>
+            </div>
+
+            <div class="nav-actions">
+                <button
+                    class="icon-btn"
+                    id="theme-toggle"
+                    type="button"
+                    aria-label="Chuyển đổi giao diện sáng tối"
+                    title="Chuyển đổi giao diện"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button
+                    class="icon-btn mobile-menu-btn"
+                    id="mobile-toggle"
+                    type="button"
+                    aria-label="Mở menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+
+            <div class="hero-text">
+                <span class="badge">Xin chào, tôi là</span>
+
+                <h1 class="hero-title">Lê Thị Thùy Vân</h1>
+
+                <h2 class="hero-subtitle">
+                    Sinh viên Công nghệ thông tin
+                </h2>
+
+                <p class="hero-bio">
+                    Tôi là sinh viên ngành Công nghệ thông tin, luôn mong muốn học hỏi kiến thức mới, phát triển kỹ năng chuyên môn và
+                    tích lũy kinh nghiệm thực tế. Tôi hướng đến việc hoàn thiện
+                    bản thân và tìm kiếm cơ hội phát triển trong môi trường
+                    làm việc chuyên nghiệp.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-folder-open"></i>
+                        Xem Portfolio
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fa-solid fa-envelope"></i>
+                        Liên hệ với tôi
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-avatar-wrapper">
+                <div class="avatar-card">
+                    <div class="avatar-image-box">
+
+                        <img
+                            src="avatar.jpg"
+                            alt="Ảnh đại diện Lê Thị Thùy Vân"
+                            class="avatar-img"
+                        >
+
+                        <div class="avatar-overlay">
+                            <h3>Lê Thị Thùy Vân</h3>
+                            <p>Sinh viên IT</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about">
+                Cuộn xuống để xem thêm
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ABOUT --><section id="about" class="section bg-light">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Giới thiệu về tôi</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    Tôi là Lê Thị Thùy Vân, hiện đang là sinh viên ngành
+                    Công nghệ thông tin. Tôi quan tâm đến lĩnh vực công nghệ,
+                    lập trình và phát triển các sản phẩm số. Tôi mong muốn
+                    được học hỏi từ những trải nghiệm thực tế, rèn luyện tư
+                    duy giải quyết vấn đề và từng bước xây dựng nền tảng
+                    chuyên môn vững chắc.
+                </p>
+            </div>
+
+            <div class="info-grid">
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Họ và tên</span>
+                        <p class="info-value">Lê Thị Thùy Vân</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-calendar"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Ngày sinh</span>
+                        <p class="info-value">01/09/2007</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Email</span>
+                        <a
+                            href="mailto:thuyvanle1907@gmail.com"
+                            class="info-value email-link"
+                        >
+                            thuyvanle1907@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Địa chỉ</span>
+                        <p class="info-value">
+                            Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Chuyên ngành</span>
+                        <p class="info-value">Công nghệ thông tin</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Trạng thái</span>
+                        <p class="info-value">Sinh viên</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Quá trình học vấn</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <div class="timeline-header">
+                            <span class="badge">Đại học</span>
+
+                            <span class="timeline-date"><i class="fa-solid fa-calendar"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Ngày sinh</span>
+                        <p class="info-value">01/09/2007</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Email</span>
+                        <a
+                            href="mailto:thuyvanle1907@gmail.com"
+                            class="info-value email-link"
+                        >
+                            thuyvanle1907@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Địa chỉ</span>
+                        <p class="info-value">
+                            Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Chuyên ngành</span>
+                        <p class="info-value">Công nghệ thông tin</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <div class="info-content">
+                        <span class="info-label">Trạng thái</span>
+                        <p class="info-value">Sinh viên</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Quá trình học vấn</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <div class="timeline-header">
+                            <span class="badge">Đại học</span>
+
+                            <span class="timeline-date"><i class="fa-solid fa-calendar"></i>
+                                2025 - Hiện tại
+                            </span>
+                        </div>
+
+                        <h3 class="timeline-title">
+                            Chuyên ngành: Công nghệ thông tin
+                        </h3>
+
+                        <p class="timeline-school">
+                            Tên trường Đại học (Đang cập nhật)
+                        </p>
+
+                        <div class="timeline-footer">
+                            <span>Trạng thái:</span>
+                            <span class="status-tag">Đang học</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Kỹ năng của tôi</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Kỹ năng chuyên môn</h3>
+                    </div>
+
+                    <div class="skill-tags">
+                        <span class="skill-tag">Lập trình</span>
+                        <span class="skill-tag">Phát triển website</span>
+                        <span class="skill-tag">Cơ sở dữ liệu</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Kỹ năng công nghệ</h3>
+                    </div>
+
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <h3>Kỹ năng mềm</h3>
+                    </div>
+
+                    <div class="skill-tags">
+                        <span class="skill-tag">Giao tiếp</span>
+                        <span class="skill-tag">Làm việc nhóm</span>
+                        <span class="skill-tag">Quản lý thời gian</span>
+                        <span class="skill-tag">Tự học &amp; Giải quyết vấn đề
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Dự án của tôi</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="empty-projects">
+                <div class="empty-icon">
+                    <i class="fa-solid fa-folder-open"></i>
+                </div>
+
+                <p>
+                    Các dự án cá nhân sẽ được cập nhật trong thời gian tới.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CAREER OBJECTIVE -->
+    <section class="section bg-light">
+        <div class="container">
+
+            <div class="objective-box">
+
+                <div class="objective-icon">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
+                <div class="objective-text">
+                    <h2>Mục tiêu nghề nghiệp</h2>
+
+                    <p>
+                        Trong thời gian tới, tôi mong muốn củng cố kiến thức
+                        chuyên ngành Công nghệ thông tin, nâng cao kỹ năng
+                        thực hành và tham gia các dự án thực tế. Tôi hướng đến
+                        việc tìm kiếm cơ hội thực tập hoặc làm việc phù hợp để
+                        học hỏi, tích lũy kinh nghiệm và phát triển nghề nghiệp
+                        lâu dài.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Kết nối với tôi</h2>
+                <div class="header-line"></div>
+
+                <p class="section-desc">
+                    Nếu bạn có cơ hội học tập, dự án hoặc công việc phù hợp,
+                    tôi rất mong được kết nối và trao đổi thêm.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+
+                    <div class="contact-card">
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div class="contact-content">
+                                <span class="info-label">Email</span>
+                                <a
+                                    href="mailto:thuyvanle1907@gmail.com"
+                                    class="info-value email-link"
+                                >
+                                    thuyvanle1907@gmail.com
+                                </a></div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="contact-content">
+                                <span class="info-label">Địa chỉ</span>
+                                <p class="info-value">
+                                    Thành phố Hồ Chí Minh
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a
+                        href="mailto:thuyvanle1907@gmail.com"
+                        class="btn btn-secondary full-width"
+                    >
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Gửi email cho tôi
+                    </a>
+
+                </div>
+
+
+                <div class="contact-form-card">
+
+                    <form id="contact-form">
+
+                        <div class="form-group">
+                            <label for="fullname">Họ tên</label>
+
+                            <input
+                                type="text"
+                                id="fullname"
+                                name="fullname"
+                                placeholder="Nguyễn Văn A"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@gmail.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                Nội dung tin nhắn
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Nhập nội dung cần trao đổi..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary full-width"
+                        >
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Gửi tin nhắn
+                        </button>
+
+                        <p
+                            id="form-status"
+                            class="form-status"role="status"
+                            aria-live="polite"
+                        ></p>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <p>
+                &copy; 2026 Lê Thị Thùy Vân. All rights reserved.
+            </p>
+
+            <button
+                id="scroll-top"
+                class="icon-btn"
+                type="button"
+                aria-label="Cuộn lên đầu trang"
+                title="Lên đầu trang"
+            >
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // ELEMENTS
+        const navbar = document.getElementById('navbar');
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        const scrollTop = document.getElementById('scroll-top');
+        const contactForm = document.getElementById('contact-form');
+        const formStatus = document.getElementById('form-status');
+
+
+        // MOBILE MENU
+        mobileToggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+
+            mobileToggle.setAttribute('aria-expanded', isOpen);
+            mobileToggle.setAttribute(
+                'aria-label',
+                isOpen ? 'Đóng menu' : 'Mở menu'
+            );
+
+            const icon = mobileToggle.querySelector('i');
+
+            icon.classList.toggle('fa-bars', !isOpen);
+            icon.classList.toggle('fa-xmark', isOpen);
+        });
+
+
+        // CLOSE MENU AFTER CLICK
+        navLinks.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+
+                mobileToggle.setAttribute('aria-expanded', 'false');
+                mobileToggle.setAttribute('aria-label', 'Mở menu');
+
+                const icon = mobileToggle.querySelector('i');
+
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+
+                navLinks.querySelectorAll('.nav-link').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                link.classList.add('active');
+            });
+        });
+
+
+        // DARK MODE
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.body.classList.toggle('dark-mode');
+
+            themeIcon.classList.toggle('fa-moon', !isDark);
+            themeIcon.classList.toggle('fa-sun', isDark);
+
+            themeToggle.setAttribute(
+                'aria-label',
